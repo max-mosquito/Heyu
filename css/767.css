@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+	.burger {
+		display: block;
+		width: 50px;
+		height: 50px;
+		/*position: relative;*/
+	}
+	.burger::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f805";
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    cursor: pointer;
+    right: 3rem;
+    top: 2rem;
+  }
+  .burger.active::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f00d";
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    cursor: pointer;
+    right: 3rem;
+  }
+  .nav {
+  	margin-top: -400px;
+  	transition: 0.5s;
+  }
+  .nav.active {
+	margin-top: 0;
+	transition: 0.5s;
+  }
+  .nav ul{
+	display: block;
+ }
+  .use {
+  	padding-bottom: 0px;
+  }
+  .say{
+  	padding: 20px 0;
+  }
+  .say h2 {
+  	padding-bottom: 20px;
+  }
+  .heyu {
+    margin: 120px 0 65px;
+  }
+  .heyu_wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .heyu_l {
+    order: 2;
+    max-width: 50%;
+  }
+  .heyu_block-l {
+    padding-bottom: 25px;
+  }
+  .heyu_c {
+    order: 1;
+    max-width: 60%;
+    padding-bottom: 50px;
+  }
+  .heyu_r {
+    order: 2;
+    max-width: 50%;
+  }
+  .heyu_block-r {
+    padding-bottom: 25px;
+  }
+  .footer_nav ul {
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+	.slider_item {
+		flex: 0 1 45%
+	}
+	.heyu_block-l {
+		flex-direction: column;
+	}
+	.heyu_block-l .block_pic {
+		order: 1;
+		text-align:end;
+		margin-right: 40px;
+	}
+	.heyu_block-l .block_title {
+		order: 2;
+		padding-bottom: 20px;
+	}
+	.heyu_block-r {
+		flex-direction: column;
+	}
+	.heyu_block-r .block_pic {
+		order: 1;
+		text-align:start;
+		margin-left: 30px;
+	}
+	.heyu_block-r .block_title {
+		order: 2;
+		padding-bottom: 20px;
+		margin-left: 30px;
+	}
+	.footer_nav li {
+		margin-right: 20px;
+	}
+}
